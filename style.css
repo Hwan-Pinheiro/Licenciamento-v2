@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #161b22;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px 40px;
+  background-color: #f3f3f3;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alerta {
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  padding: 10px 15px;
+  margin: 20px 0;
+  border-radius: 5px;
+  color: #856404;
+}
+
+.modulos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.modulo {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.modulo .icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.video-tutorial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  width: 300px;
+}
+
+.video-box {
+  margin-top: 10px;
+  background-color: black;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-box img {
+  width: 60px;
+  height: auto;
+}

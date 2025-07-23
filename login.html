@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+  <title>Prefeitura Juazeiro do Norte - Login</title>
+  <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+  <div class="overlay">
+    <div class="login-box">
+      <h1>SOFTWARE DE LINCECNAIMENTO</h1>
+      <p>Informe os dados abaixo para entrar</p>
+      <form action="{{ url_for('login') }}" method="post">
+        <input type="text" placeholder="USUÁRIO" required />
+        <input type="password" placeholder="SENHA" required />
+        <button type="submit">Entrar</button> 
+      </form>
+    </div>
+  </div>
+</body>
+</html>
